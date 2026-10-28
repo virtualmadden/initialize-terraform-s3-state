@@ -1,5 +1,7 @@
 # initialize-terraform-s3-state
 
+> **Archived.** Every AWS account's Terraform state bucket now comes from [aws-organization](https://github.com/virtualmadden/aws-organization)'s `account-baseline`, as `tfstate-<account-id>-us-west-2`. This repo is kept for reference only.
+
 One-time Terraform bootstrap to create an S3 bucket for remote state in an AWS account. This root uses **local state** so it can run before the remote backend exists.
 
 ## Usage
